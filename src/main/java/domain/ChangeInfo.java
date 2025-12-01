@@ -4,10 +4,6 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Objects;
 
-/**
- * 변경 정보 도메인 모델
- * 레포지토리, 브랜치, 변경된 파일 목록을 포함
- */
 public class ChangeInfo {
     private final Repository repository;
     private final String branch;

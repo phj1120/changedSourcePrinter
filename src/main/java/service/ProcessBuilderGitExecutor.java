@@ -8,9 +8,6 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.stream.Collectors;
 
-/**
- * ProcessBuilder를 사용한 Git 명령 실행 구현체
- */
 public class ProcessBuilderGitExecutor implements GitCommandExecutor {
 
     @Override

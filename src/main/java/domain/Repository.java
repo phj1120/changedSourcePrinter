@@ -3,10 +3,6 @@ package domain;
 import java.nio.file.Path;
 import java.util.Objects;
 
-/**
- * 레포지토리 도메인 모델
- * 불변 객체로 설계 (final 필드, setter 없음)
- */
 public class Repository {
     private final String name;
     private final String baseBranch;

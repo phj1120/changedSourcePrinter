@@ -7,10 +7,6 @@ import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
 
-/**
- * 브랜치 우선 출력 전략
- * 출력 형식: 브랜치 -> 레포지토리 -> 변경목록
- */
 public class BranchFirstDisplayStrategy implements DisplayStrategy {
 
     @Override

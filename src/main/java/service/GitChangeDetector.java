@@ -10,10 +10,6 @@ import java.util.List;
 import java.util.Objects;
 import java.util.stream.Collectors;
 
-/**
- * Git을 사용한 변경사항 감지 구현체
- * Single Responsibility Principle 적용 - 변경사항 감지만 담당
- */
 public class GitChangeDetector implements ChangeDetector {
     private final GitCommandExecutor executor;
 

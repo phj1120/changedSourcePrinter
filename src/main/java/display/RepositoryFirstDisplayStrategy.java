@@ -7,10 +7,6 @@ import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
 
-/**
- * 레포지토리 우선 출력 전략
- * 출력 형식: 레포지토리 -> 브랜치 -> 변경목록
- */
 public class RepositoryFirstDisplayStrategy implements DisplayStrategy {
 
     @Override
