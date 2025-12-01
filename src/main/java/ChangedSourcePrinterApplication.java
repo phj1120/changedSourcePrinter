@@ -14,8 +14,8 @@ public class ChangedSourcePrinterApplication {
      * 기준 브랜치와 비교하여 변경사항을 확인할 브랜치들을 지정
      */
     private static final List<String> TRACKING_BRANCHES = Arrays.asList(
-            "test1",
-            "test2"
+            "origin/test1",
+            "origin/test2"
     );
 
     public static void main(String[] args) {
